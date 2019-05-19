@@ -2,7 +2,7 @@ package com.sda.powtorka;
 
 
 import java.util.Scanner;
-import java.util.concurrent.SynchronousQueue;
+
 
 public class PowtorkaMain {
 
@@ -29,13 +29,21 @@ public class PowtorkaMain {
 
                 Rectangle rectangle = new Rectangle(sideA, sideB);
                 rectangle.draw();
-            case 2:
+
+            /*case 2:
                 System.out.println("Instert side length");
                 int side = scanner.nextInt();
                 Square square = new Square();
                 square.draw();
                 break;
+
+            case 3:
+                // ZROBIENIE TRÓJKĄTA
+                System.out.println("Insert side a");
+
+        }*/
+
+
         }
-
-
-    }}
+    }
+}

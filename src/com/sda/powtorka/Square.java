@@ -1,4 +1,4 @@
-package com.sda.powtorka;
+/*package com.sda.powtorka;
 
 public class Square extends Rectangle{
 
@@ -7,3 +7,4 @@ public class Square extends Rectangle{
     }
 
 }
+*/

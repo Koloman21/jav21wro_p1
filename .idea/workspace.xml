@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31157b34-eef4-4341-bb03-22ac850cf5a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/powtorka/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/powtorka/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/powtorka/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/powtorka/iDrawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/powtorka/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/powtorka/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,14 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -55,11 +59,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sda/powtorka/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#0#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,13 +106,15 @@
         <option value="$PROJECT_DIR$/src/com/sda/powtorka/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/com/sda/powtorka/Square.java" />
         <option value="$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java" />
+        <option value="$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,6 +154,13 @@
               <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="bunny" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jav21wro_p1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jav21wro_p1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
               <item name="powtorka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -172,7 +184,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PowtorkaMain">
+  <component name="RunManager" selected="Application.BunnyCounter">
+    <configuration name="BunnyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.bunny.BunnyCounter" />
+      <module name="jav21wro_p1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.bunny.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
       <module name="jav21wro_p1" />
@@ -198,6 +223,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BunnyCounter" />
         <item itemvalue="Application.PowtorkaMain" />
         <item itemvalue="Application.Main" />
       </list>
@@ -217,9 +243,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1552" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -227,15 +254,15 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" x="0" y="0" width="338" height="640" id="Documentation" side_tool="true" weight="0.3297587" />
@@ -280,22 +307,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/powtorka/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#0#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sda/powtorka/PowtorkaMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sda/bunny/BunnyCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
